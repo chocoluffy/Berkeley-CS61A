@@ -1,0 +1,19 @@
+{
+  "name": "Project 2: Yelp Maps",
+  "endpoint": "cal/CS61A/sp15/proj2",
+  "src": [
+    "tutorials.py",
+    "abstractions.py",
+    "recommend.py"
+  ],
+  "tests": {
+      "tests/[0-9].py": "ok_test",
+      "tests/10.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "unlock",
+      "grading",
+      "analytics"
+  ]
+}

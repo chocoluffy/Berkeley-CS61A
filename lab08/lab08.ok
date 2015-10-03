@@ -1,0 +1,16 @@
+{
+    "name": "Lab 8",
+    "endpoint": "cal/CS61A/sp15/lab08",
+    "src": [
+        "lab08.py"
+    ],
+    "tests": {
+        "lab08.py": "doctest",
+        "lab08_extra.py": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Homework 3",
+    "endpoint": "cal/CS61A/sp15/hw3",
+    "src": [
+        "hw03.py"
+    ],
+    "tests": {
+        "hw03.py": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

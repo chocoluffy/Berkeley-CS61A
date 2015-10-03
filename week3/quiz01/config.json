@@ -1,0 +1,17 @@
+{
+    "name": "Quiz 1",
+    "endpoint": "cal/CS61A/sp15/quiz1",
+    "src": [
+        "quiz01.py"
+    ],
+    "tests": {
+        "quiz01.py:harmonic": "doctest",
+        "quiz01.py:pi_fraction": "doctest",
+        "quiz01.py:nearest_two": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

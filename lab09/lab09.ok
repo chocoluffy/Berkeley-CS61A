@@ -1,0 +1,25 @@
+{
+    "name": "Lab 9",
+    "endpoint": "cal/CS61A/sp15/lab09",
+    "src": [
+        "lab09.scm"
+    ],
+    "tests": {
+        "tests/cube.py": "ok_test",
+        "tests/over-or-under.py": "ok_test",
+        "tests/make-adder.py": "ok_test",
+        "tests/structure.py": "ok_test",
+        "tests/remove.py": "ok_test",
+        "tests/composed.py": "ok_test",
+        "tests/gcd.py": "ok_test",
+        "tests/filter.py": "ok_test",
+        "tests/all-satisfies.py": "ok_test",
+        "tests/accumulate.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics"
+    ]
+}

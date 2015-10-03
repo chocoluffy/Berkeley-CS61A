@@ -1,0 +1,16 @@
+{
+    "name": "Lab 3",
+    "endpoint": "cal/CS61A/sp15/lab03",
+    "src": [
+        "lab03.py"
+    ],
+    "tests": {
+        "lab03.py": "doctest",
+        "lab03_extra.py": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

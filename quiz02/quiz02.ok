@@ -1,0 +1,15 @@
+{
+    "name": "Quiz 2",
+    "endpoint": "cal/CS61A/sp15/quiz2",
+    "src": [
+        "quiz02.py"
+    ],
+    "tests": {
+        "quiz02.py": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

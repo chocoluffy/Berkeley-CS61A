@@ -1,0 +1,16 @@
+{
+  "name": "Project 1: Hog",
+  "endpoint": "cal/CS61A/sp15/proj1",
+  "src": [
+    "hog.py"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "unlock",
+      "grading",
+      "analytics"
+  ]
+}

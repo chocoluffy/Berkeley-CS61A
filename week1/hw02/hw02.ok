@@ -1,0 +1,20 @@
+{
+    "name": "Homework 2",
+    "endpoint": "cal/CS61A/sp15/hw2",
+    "src": [
+        "hw02.py"
+    ],
+    "tests": {
+        "hw02.py:piecewise": "doctest",
+        "hw02.py:repeated": "doctest",
+        "hw02.py:church_to_int": "doctest",
+        "hw02.py:add_church": "doctest",
+        "hw02.py:mul_church": "doctest",
+        "hw02.py:pow_church": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

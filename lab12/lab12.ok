@@ -1,0 +1,20 @@
+{
+    "name": "Lab 12",
+    "endpoint": "cal/CS61A/sp15/lab12",
+    "src": [
+        "lab12.sql"
+    ],
+    "tests": {
+        "tests/adjacent.py": "ok_test",
+        "tests/distances.py": "ok_test",
+        "tests/three_hops.py": "ok_test",
+        "tests/paths.py": "ok_test",
+        "tests/inland.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics"
+    ]
+}

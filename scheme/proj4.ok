@@ -1,0 +1,21 @@
+{
+  "name": "Project 4: A Scheme interpreter",
+  "endpoint": "cal/CS61A/sp15/proj4",
+  "src": [
+    "scheme_reader.py",
+    "scheme.py",
+    "questions.scm",
+    "tests.scm"
+  ],
+  "tests": {
+      "tests/[0-9][0-9]*.py": "ok_test",
+      "tests/eval_apply.py": "ok_test",
+      "tests/EC.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "unlock",
+      "grading",
+      "analytics"
+  ]
+}

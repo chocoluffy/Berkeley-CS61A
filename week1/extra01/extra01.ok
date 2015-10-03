@@ -1,0 +1,17 @@
+{
+    "name": "Extra Homework 1",
+    "endpoint": "cal/CS61AP/sp15/hw1",
+    "src": [
+        "extra01.py"
+    ],
+    "tests": {
+        "extra01.py:intersect": "doctest",
+        "extra01.py:quadratic": "doctest",
+        "extra01.py:poly_zero": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

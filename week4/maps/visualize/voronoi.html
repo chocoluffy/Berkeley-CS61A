@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>voronoi</title>
+    <script src="d3.js" charset="utf-8"></script>
+    <style>
+      body {
+          font: 10px sans-serif;
+          background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=37.87,-122.26&zoom=15&size=600x600");
+          background-size: 600px 600px;
+          background-repeat: no-repeat;
+      }
+
+      .axis path, .axis line {
+          fill: none;
+          stroke: #000;
+          shape-rendering: crispEdges;
+      }
+
+      .dot {
+          stroke: #000;
+      }
+
+      .tooltip {
+          position: absolute;
+          width: 200px;
+          height: 28px;
+          pointer-events: none;
+      }
+    </style>
+  </head>
+  <body></body>
+  <script src="voronoi.js"></script>
+</html>
+

@@ -1,0 +1,21 @@
+{
+    "name": "Homework 9",
+    "endpoint": "cal/CS61A/sp15/hw9",
+    "src": [
+        "hw09.sql"
+    ],
+    "tests": {
+        "tests/small.py": "ok_test",
+        "tests/parent-height.py": "ok_test",
+        "tests/size-siblings.py": "ok_test",
+        "tests/stack.py": "ok_test",
+        "tests/tallest.py": "ok_test",
+        "tests/relations.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics"
+    ]
+}

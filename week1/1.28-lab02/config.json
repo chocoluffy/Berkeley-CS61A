@@ -1,0 +1,20 @@
+{
+    "name": "Lab 2",
+    "endpoint": "cal/61A/sp15/lab02",
+    "src": [
+        "lab02.py"
+    ],
+    "tests": {
+        "lab02.py:both_positive": "doctest",
+        "lab02.py:factors": "doctest",
+        "lab02.py:fib": "doctest",
+        "lab02_extra.py:gets_discount": "doctest",
+        "lab02_extra.py:is_factor": "doctest",
+        "lab02_extra.py:falling": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

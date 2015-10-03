@@ -1,0 +1,16 @@
+{
+    "name": "Lab 10",
+    "endpoint": "cal/CS61A/sp15/lab10",
+    "src": [
+        "adventure.py",
+        "cs61a_world.py"
+    ],
+    "tests": {
+        "adventure.py": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "analytics"
+    ]
+}

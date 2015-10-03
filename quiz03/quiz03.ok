@@ -1,0 +1,17 @@
+{
+    "name": "Quiz 3",
+    "endpoint": "cal/CS61A/sp15/quiz3",
+    "src": [
+        "quiz03.scm"
+    ],
+    "tests": {
+        "tests/no-repeats.py": "ok_test",
+        "tests/how-many-dots.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics"
+    ]
+}

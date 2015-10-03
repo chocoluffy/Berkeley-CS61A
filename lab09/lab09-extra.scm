@@ -1,0 +1,36 @@
+(define (composed f g)
+  (lambda (x) (f (g x)))
+)
+
+(define (max a b) (if (> a b) a b))
+(define (min a b) (if (> a b) b a))
+(define (gcd a b)
+  (cond ((< a b) (gcd b a))
+  		((= 0 b) a)
+  		((= a 1) 1)
+  		((= b 1) 1)
+  		((= 0 (modulo a b)) b)
+  		(else (gcd b (modulo a b)))
+  	)
+)
+
+(define (filter f lst)
+	(cond ((null? lst) ())
+		  ((f (car lst)) (cons (car lst) (filter f (cdr lst))))
+		  (else (filter f (cdr lst)))
+		)
+)
+
+(define (all-satisfies lst pred)
+  (cond ((null? lst) True)
+  		((pred (car lst)) (all-satisfies (cdr lst) pred))
+  		(else False)
+  	)
+)
+
+(define (accumulate combiner start n term)
+  (if (= n 0)
+      start
+      (combiner (term n) (accumulate combiner start (- n 1) term))
+      ))
+
